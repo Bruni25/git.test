@@ -1,5 +1,5 @@
 int main()
 {
-    prinft("hello wold");
+    prinft("Hello !");
     return O;
 }
