@@ -54,7 +54,7 @@ void afficher() {
 
 void recherche() {
     char recherche[100];
-    printf("\nEntrez le titre ou l'auteur � rechercher : ");
+    printf("\nEntrez le titre ou l'auteur du livre rechercher : ");
     scanf("%s", recherche);
   
 
@@ -107,7 +107,7 @@ int main() {
     int choix;
 
     do {
-        printf("\nSystème de gestion de bibliothèque\n");
+        printf("\nsysteme de gestion dune bibliotheque\n");
         printf("1. Ajouter un nouveau livre\n");
         printf("2. Rechercher un livre\n");
         printf("3. Afficher tous les livres\n");
@@ -131,10 +131,10 @@ int main() {
                 break;
             case 5:
                 enregistrer();
-                printf("\nMerci d'avoir utilise notre système de gestion de bibliothèque.\n");
+                printf("\nMerci d'avoir utilise notre systeme de gestion de bibliotheque.\n");
                 break;
             default:
-                printf("Choix invalide. Veuillez réessayer.\n");
+                printf("Choix invalide. Veuillez reessayer.\n");
         }
     } while (choix != 5);
 
